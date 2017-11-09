@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-self.split(/[.!?]+[ ]/).count
+array = self.split(/[.!?]+[ ]/)
 
 binding.pry
   end
